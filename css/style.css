@@ -1,37 +1,32 @@
-/* end product lol */
-/* img {
-  display: block;
-  margin: 0 auto;
-} */
 
 @font-face {
   font-family: BiteChocolate;
-  src: url(/fonts/BiteChocolate-2RGl.ttf);
+  src: url(../fonts/BiteChocolate-2RGl.ttf);
 }
 @font-face {
   font-family: Oswald;
-  src: url(/fonts/Oswald-ymXe.ttf);
+  src: url(../fonts/Oswald-ymXe.ttf);
 }
   @font-face {
   font-family: Oswaldvariable;
-  src: url(/fonts/Oswald-VariableFont_wght.ttf);
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: NunitoRegular;
-  src: url(/fonts/NunitoRegular-vmABZ.ttf);
+  src: url(../fonts/NunitoRegular-vmABZ.ttf);
   font-family: NunitoExtraLight;
-  src: url(/fonts/NunitoExtralight-YzEeq.ttf);
+  src: url(../fonts/NunitoExtralight-YzEeq.ttf);
   font-family: NunitoLight;
-  src: url(/fonts/NunitoLight-K7dKW.ttf);
+  src: url(../fonts/NunitoLight-K7dKW.ttf);
 }
 @font-face {
   font-family: Pacifico;
-  src: url(/fonts/PacificoRegular-BXvV.ttf);
+  src: url(../fonts/PacificoRegular-BXvV.ttf);
 }
 
 @font-face {
     font-family: YellowtailRegular;
-  src: url(/fonts/Yellowtail-Regular.ttf);
+  src: url(../fonts/Yellowtail-Regular.ttf);
 }
 
 body {
@@ -117,7 +112,7 @@ nav {
 .greyBar {
   width: 100%;
   height: 15px;
-  background-image: url('/images/hr-img.png');
+  background-image: url('../images/hr-img.png');
   margin-top: 20px;
 }
 
@@ -167,7 +162,7 @@ padding-bottom: 20px;
 
 .recipe {
   display: flex;
-  background-image: url('/images/list-bg.png');
+  background-image: url('../images/list-bg.png');
   /* transform: scaleX(-1); */
   background-repeat: no-repeat;
   background-size: contain;
@@ -197,7 +192,7 @@ input[type=checkbox] {
 
 input[type=checkbox].checked {
   opacity: 0.2;
-  /* list-style-image: url(images/greenCheckMark.png); */
+  /* list-style-image: url(../images/greenCheckMark.png); */
 }
 
 .author {
